@@ -12,7 +12,7 @@ interface BotCardProps {
 const BotCard: React.FC<BotCardProps> = ({ imageUrl, title, date, paragraph, butname }) => {
 
   return (
-    <div className="bg-white dark:bg-gray-500 w-[300px] rounded-lg shadow-lg overflow-hidden">
+    <div className="bg-white dark:bg-gray-500 w-[260px] rounded-lg shadow-lg overflow-hidden">
     <img className="w-full object-cover object-center" src={imageUrl} alt={title} />
     <div className="p-4 flex flex-col items-center">
       <h2 className="text-xl font-semibold text-gray-800 dark:text-white">{title}</h2>
