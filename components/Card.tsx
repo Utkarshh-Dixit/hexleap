@@ -27,7 +27,7 @@ const Card: React.FC<CardProps> = ({
       <img className="w-full object-cover object-center" src={imageUrl} alt={title} />
       <div className="p-4">
         <h2 className="text-xl font-semibold text-gray-800 dark:text-white">{title}</h2>
-        <div className="grid grid-cols-2 gap-2 mt-2 dark:bg-gray-700 dark:p-2">
+        <div className="grid grid-cols-2 gap-2 mt-2 p-2 dark:bg-gray-700 dark:p-2">
           <div>
             <h3 className="text-sm font-medium text-gray-400 dark:text-gray-300">{heading1}</h3>
             <p className="text-sm text-gray-800 dark:text-white">{value1}</p>
