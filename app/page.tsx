@@ -109,7 +109,7 @@ const HomePage: React.FC = () => {
         <h1 className=' text-[50px] font-[700]'>Collection Spotlight</h1>
         <p className=' mt-4 mb-10 max-w-[917px] text-[14px] font-[400] text-center'>Discover extraordinary moments with our Spotlight Collection metatickets—exclusive access to premium events for an unforgettable experience. Grab yours today!</p>
         
-        <div className='flex flex-row gap-x-5'>
+        <div className='flex flex-row flex-wrap gap-x-5'>
 
         <BotCard  imageUrl="botfirst.svg"
               title="Las Vegas Aviators"
